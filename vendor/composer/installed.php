@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'e2ab4abd6357dcebf57d0bc1ba14c78c0b2b670e',
+        'reference' => '65e76ea1857df031c5702869fb20f3744500f166',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -178,6 +178,15 @@
                 0 => '9.3.0',
             ),
         ),
+        'drupal/adminimal_theme' => array(
+            'pretty_version' => '1.6.0',
+            'version' => '1.6.0.0',
+            'type' => 'drupal-theme',
+            'install_path' => __DIR__ . '/../../web/themes/composer/adminimal_theme',
+            'aliases' => array(),
+            'reference' => '8.x-1.6',
+            'dev_requirement' => false,
+        ),
         'drupal/aggregator' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -231,6 +240,15 @@
             'replaced' => array(
                 0 => '9.3.0',
             ),
+        ),
+        'drupal/bootstrap' => array(
+            'pretty_version' => '3.23.0',
+            'version' => '3.23.0.0',
+            'type' => 'drupal-theme',
+            'install_path' => __DIR__ . '/../../web/themes/composer/bootstrap',
+            'aliases' => array(),
+            'reference' => '8.x-3.23',
+            'dev_requirement' => false,
         ),
         'drupal/breakpoint' => array(
             'dev_requirement' => false,
@@ -496,6 +514,15 @@
                 0 => '9.3.0',
             ),
         ),
+        'drupal/ctools' => array(
+            'pretty_version' => '3.7.0',
+            'version' => '3.7.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/composer/ctools',
+            'aliases' => array(),
+            'reference' => '8.x-3.7',
+            'dev_requirement' => false,
+        ),
         'drupal/datetime' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -730,6 +757,15 @@
                 0 => '9.3.0',
             ),
         ),
+        'drupal/pathauto' => array(
+            'pretty_version' => '1.9.0',
+            'version' => '1.9.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/composer/pathauto',
+            'aliases' => array(),
+            'reference' => '8.x-1.9',
+            'dev_requirement' => false,
+        ),
         'drupal/quickedit' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -748,7 +784,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'e2ab4abd6357dcebf57d0bc1ba14c78c0b2b670e',
+            'reference' => '65e76ea1857df031c5702869fb20f3744500f166',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
@@ -840,6 +876,15 @@
             'replaced' => array(
                 0 => '9.3.0',
             ),
+        ),
+        'drupal/token' => array(
+            'pretty_version' => '1.10.0',
+            'version' => '1.10.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/composer/token',
+            'aliases' => array(),
+            'reference' => '8.x-1.10',
+            'dev_requirement' => false,
         ),
         'drupal/toolbar' => array(
             'dev_requirement' => false,
@@ -1102,8 +1147,8 @@
         'psr/container-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0',
-                1 => '^1.0',
+                0 => '^1.0',
+                1 => '1.0',
             ),
         ),
         'psr/event-dispatcher-implementation' => array(
