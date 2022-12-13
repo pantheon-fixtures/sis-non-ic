@@ -16,7 +16,7 @@ class CommentPagerTest extends CommentTestBase {
   /**
    * {@inheritdoc}
    */
-  protected $defaultTheme = 'classy';
+  protected $defaultTheme = 'stark';
 
   /**
    * Confirms comment paging works correctly with flat and threaded comments.
@@ -432,7 +432,7 @@ class CommentPagerTest extends CommentTestBase {
       $url_target = $this->getAbsoluteUrl($urls[$index]->getAttribute('href'));
       return $this->drupalGet($url_target);
     }
-    $this->fail(new FormattableMarkup('Link %label does not exist on @url_before', ['%label' => $xpath, '@url_before' => $url_before]), 'Browser');
+    $this->fail(new FormattableMarkup('Link %label does not exist on @url_before', ['%label' => $xpath, '@url_before' => $url_before]));
     return FALSE;
   }
 
