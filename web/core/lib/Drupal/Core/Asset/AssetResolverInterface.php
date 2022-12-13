@@ -32,7 +32,7 @@ interface AssetResolverInterface {
    * module styles through CSS selectors.
    *
    * Themes may replace module-defined CSS files by adding a stylesheet with the
-   * same filename. For example, themes/bartik/system-menus.css would replace
+   * same filename. For example, themes/olivero/system-menus.css would replace
    * modules/system/system-menus.css. This allows themes to override complete
    * CSS files, rather than specific selectors, when necessary.
    *
@@ -60,8 +60,7 @@ interface AssetResolverInterface {
    * Note that hook_js_alter(&$javascript) is called during this function call
    * to allow alterations of the JavaScript during its presentation. The correct
    * way to add JavaScript during hook_js_alter() is to add another element to
-   * the $javascript array, deriving from drupal_js_defaults(). See
-   * locale_js_alter() for an example of this.
+   * the $javascript array. See locale_js_alter() for an example of this.
    *
    * @param \Drupal\Core\Asset\AttachedAssetsInterface $assets
    *   The assets attached to the current response.
